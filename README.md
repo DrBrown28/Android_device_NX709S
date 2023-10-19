@@ -1,6 +1,6 @@
 ## Custom Recovery | Device Tree
-[RedMagic 7s Pro]
-| Device                  | RedMagic 7s Pro                                          |
+[RedMagic 7 Pro]
+| Device                  | RedMagic 7 Pro                                          |
 | ----------------------- | ---------------------------------------------------------|
 | SoC                     | Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)                      |      
 | CPU                     | 1x3.2 GHz Cortex•X2 +3x2.8 GHz Cortex•A710 + 4x2.0 GHz Cortex•A510  |
