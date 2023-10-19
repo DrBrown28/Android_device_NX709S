@@ -2,7 +2,7 @@
 # Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
 # SPDX-License-Identifier: Apache-2.0
 
-DEVICE_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
+DEVICE_PATH := device/nubia/NX709J
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -23,7 +23,7 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := $(PRODUCT_PLATFORM)
+TARGET_BOOTLOADER_BOARD_NAME := taro
 TARGET_NO_BOOTLOADER := false
 TARGET_USES_UEFI := true
 TARGET_USES_REMOTEPROC := true
@@ -153,14 +153,13 @@ TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_INCLUDE_RESETPROP := true
 TW_EXCLUDE_APEX := true
-TW_NO_FLASH_CURRENT_TWRP := true # For A/B devices that has dedicated recovery, removing that option in Advance.
 TW_NO_SCREEN_BLANK := true
 TW_LOAD_VENDOR_MODULES := true
 TW_EXTRA_LANGUAGES := true
 TW_NO_BATTERY_PERCENT := true
 
 # Maintainer/Version
-TW_DEVICE_VERSION := NX709S-BY-OMNIUM
+TW_DEVICE_VERSION := NX709S-BY-Dr.Brown28
 
 # Debugging Configs
 TWRP_INCLUDE_LOGCAT := true
