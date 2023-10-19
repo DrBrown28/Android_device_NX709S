@@ -159,7 +159,7 @@ TW_EXTRA_LANGUAGES := true
 TW_NO_BATTERY_PERCENT := true
 
 # Maintainer/Version
-TW_DEVICE_VERSION := NX709S-BY-Dr.Brown28
+TW_DEVICE_VERSION := NX709J-BY-Dr.Brown28
 
 # Debugging Configs
 TWRP_INCLUDE_LOGCAT := true
